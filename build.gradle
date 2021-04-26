@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories{
+	mavenCentral()
+}
+mainClassName = "ru.betry.App"
+
+dependencies {
+
+	implementation group: 'com.github.pengrad', name: 'java-telegram-bot-api', version: '4.9.0'
+	implementation group: 'org.brunocvcunha.instagram4j', name: 'instagram4j', version: '1.14'
+	implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.4.30.Final'
+	implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.20'
+
+}
+
